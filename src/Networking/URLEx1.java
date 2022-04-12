@@ -31,6 +31,10 @@ public class URLEx1 {
      * 2. getInputStream()을 사용해 InputStream을 얻음 cf. getInputStream()은 java.net.URLConnection 클래스의 메소드
      * 즉, openStream() == openConnection().getInputStream()
      *
-     *
+     *  [URLConnection]
+     *  URL의 openConnection()을 통해 반환되는 인스턴스의 클래스.
+     *  내부에는 boolean타입의 'doInput' field와 'doOutput' field 존재
+     *  -> 이 둘은 URLConnection 인스턴스의 setDoInput() 혹은 setDoOutput()함수 호출로 값 변경이 가능하다.
+     *  URL의 openConnection()와 같은 역할을 하는 것이 URLConnection 에서는 connect();
      **/
 }
