@@ -1,5 +1,3 @@
-package Networking;
-
 import javax.net.ssl.HttpsURLConnection;
 import java.io.BufferedInputStream;
 import java.io.FileOutputStream;
